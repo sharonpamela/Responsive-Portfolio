@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon Santana</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- first item: navbar -->
+        <nav class="navbar"> 
+            <ul class="navbarElems">
+                <div class="navbarHeader">
+                    <li><header class="main-header">Sharon Santana</header></li>
+                </div>
+                <div class="navbarButtons">
+                    <li id="about"><a href="index.html">About</a></li>
+                    <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="contact"><a href="contact.html">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+        <!-- option 2 for nav bar as loose flex items -->
+        <div class="nav2 nav2-head"><a class="header">Sharon Santana</a></div>
+        <div class="nav2"><a href="index.html">About Me</a></div>
+        <div class="nav2" ><a href="portfolio.html">Portfolio</a></div>
+        <div class="nav2"><a href="contact.html">Contact</a></div>
+        
+        <!-- second item: main content -->
+        <section class="main">
+            <div id="aboutMe">
+                <h1>Contact</h1>
+            </div>
+
+            
+            <form id="form" action="/action_page.php">
+                <label>First name</label>
+                <input type="text" name="firstname">
+                <label>Last name</label>
+                <input type="text" name="lastname">
+                <label>Message</label>
+                <textarea rows="4" cols="50" name="comment" form="form"></textarea>                     
+                <input id="button" type="submit" value="Submit">
+            </form>
+            
+        </section>
+    </div>
+        <footer class="main-footer">
+            <p>Copyright &copy; 2018 </p>
+        </footer>
+    
+</body>
+</html>
