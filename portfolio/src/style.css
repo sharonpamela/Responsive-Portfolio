@@ -2,16 +2,28 @@ html, body {
     margin: 0;
     padding: 0;
     font-size:18px;
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Muli', sans-serif; */
     font-family: 'Quicksand', sans-serif;
-    color:black;
     background:black;
     transition: 0.3s all;
   }
 
 .changeColor {
     background: white;
-    transition: 0.3s all;
     color:black;
+    transition: 0.3s all;
+    
  }
+
+ .App {
+    display:block;
+ }
+
+ .reverseFont {
+    background:white;
+    color:black;
+    transition: 0.3s all;
+}
+
+.makeInvisible {
+    display: none;
+}

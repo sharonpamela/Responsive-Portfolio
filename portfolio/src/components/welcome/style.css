@@ -1,9 +1,9 @@
-
-
 .container {
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-rows: 60% 170px auto;
+    grid-template-columns: 2% auto 2%;
+    grid-template-rows: 55% 170px auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
     position: relative;
 }
 
@@ -26,49 +26,7 @@
     display: block;
 }
 
-.name {
-    color:white;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    margin-bottom: 15px;
-    position:relative;
-    animation:text 3s 1;
-    background:black;
-    
-}
-
-.intro {
-    font-size:20px;
-    color:#76B041;
-    
-}
-
-.reverseFont {
-    background:white;
-    color:black;
-}
-
-.makeInvisible {
-    display: none;
-}
-
-@keyframes text {
-    0%{
-        color:black;
-        margin-bottom: -40px;
-    }
-    30%{
-        letter-spacing: 25px;
-        margin-bottom: -40px;
-    }
-    85%{
-        letter-spacing: 8px;
-        margin-bottom: -40px;
-    }
-}
-
-.arrow {
+.arrowDiv {
     display: block;
     text-align: center;
     justify-self: center;
@@ -77,3 +35,42 @@
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
+.arrow{
+    width: 150px;
+    margin: 15px;
+}
+
+.name {
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+    position:relative;
+    animation:text 3s 1;
+    background:black;
+}
+
+.intro {
+    font-size:20px;
+    color:#76B041;
+    
+}
+
+
+@keyframes text {
+    0%{
+        color:black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 20px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
