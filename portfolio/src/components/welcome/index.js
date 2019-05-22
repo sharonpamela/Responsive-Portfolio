@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import arrow from './arrow.png';
-import Projects from './../projects/'
 
 function Welcome() {
 
