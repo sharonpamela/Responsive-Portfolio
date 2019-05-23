@@ -1,5 +1,7 @@
 .projectGrid {
     margin-top: 10%;
+    margin-left:3%;
+    margin-right:3%;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -42,7 +44,6 @@
     background-color: transparent;
     width: 370px;
     height: 330px;
-    /* border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -83,23 +84,21 @@
     transform: rotateY(180deg);
   }
 
+  .flip-card-back a {
+      text-decoration: none;
+  }
+
+
 
 .secondProj {
     width: 370px;
     height: 330px;
     border-radius: 30px;
-    /* grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    text-align: center;
-    justify-self: center; */
     background: #C4C4C4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .secondProj:hover {
-    /* opacity:0.8; */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     transition: .5s ease;
@@ -109,76 +108,47 @@
     width: 370px;
     height: 330px;
     border-radius: 30px;
-    /* grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    text-align: center;
-    justify-self: center; */
     background: #C4C4C4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .thirdProj:hover {
-    /* opacity: 0.8; */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     transition: .5s ease;
 }
 
-/* .fourthProj {
-    width: 370px;
-    height: 330px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    text-align: center;
-    justify-self: center;
-    background: #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
+.projTitle {
+    font-size: 24px;
+    margin:20px;
+}
 
-/* .fourthProj:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: .5s ease;
-} */
-/* 
-.fithProj {
-    width: 370px;
-    height: 330px;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    text-align: center;
-    justify-self: center;
-    background: #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
+.projDescription {
+    font-size: 16px;
+    margin:20px;
+}
 
-/* .fithProj:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: .5s ease;
-} */
-/* 
-.sixthProj {
-    width: 370px;
-    height: 330px;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.repoButton {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
     text-align: center;
-    justify-self: center;
-    background: #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
 
-/* .sixthProj:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: .5s ease;
-} */
+.repoButton:hover, .repoButton:focus, .repoButton:active {
+    background: #fff;
+    /* opacity: 0.4; */
+    color: #000;
+    transition: all 0.5s ease-in;
+}
