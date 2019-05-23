@@ -5,35 +5,12 @@
     margin: 10px;
 }
 
-@media screen and (max-width: 415px) {
-    .navbar {
-        display: block;
-        align-content: center;
-        justify-content: center;
-        align-self: center;
-        
-    }
-    .menu {
-        display: flex;
-        flex-direction: row;
-        align-content: space-around;
-    }
-
-    .socialMedia ul {
-        display: flex;
-        flex-direction: row;
-        align-content: space-around;
-    }
-}
-
-
-.active{
+.active {
     border-left-color: #837F7F;
-
 }
 
 .menu {
-    display:flex;
+    display: flex;
     /* width: 303px; */
     height: 46px;
     align-items: center;
@@ -41,9 +18,17 @@
 }
 
 .menu a {
-    margin-left:10px;
+    margin-left: 10px;
     margin-right: 10px;
     font-size: 24px;
+}
+
+.menu a:hover {
+    text-shadow: 2px 2px 4px white;
+    opacity: 0.5;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .navbar a {
@@ -51,9 +36,8 @@
     color: white;
 }
 
-
-.socialMediaButtons{
-    display:flex;
+.socialMediaButtons {
+    display: flex;
     width: 300px;
     height: 46px;
     align-items: center;
@@ -71,14 +55,19 @@
 
 .socialMedia li {
     display: inline;
-    /* transform: rotate(90deg);
-    float: left;
-    margin-bottom: 20px; */
 }
 
 .socialMedia li a {
-    color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+}
+
+.socialMedia li a img:hover {
+    /* border: 1px solid #76B041;
+    border-style: inset; */
+    opacity: 0.5;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }

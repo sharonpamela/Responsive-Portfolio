@@ -10,7 +10,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-                <div>© 2019 Sharon Santana</div>
+                <div className="copyright">© 2019 Sharon Santana</div>
                 <ul className="socialMediaButtons">
                     <li className="first-socialMedia"><a href="https://www.linkedin.com/in/sharonpamela/"><img src={linkedin} alt="linkedin" /></a></li>
                     <li className="second-socialMedia"><a href="https://twitter.com/sharonpsantana/"><img src={twitter} alt="twitter" /></a></li>

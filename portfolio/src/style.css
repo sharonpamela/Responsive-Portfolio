@@ -27,3 +27,7 @@ html, body {
 .makeInvisible {
     display: none;
 }
+
+.active {
+    text-shadow: 2px 2px 4px white;
+}

@@ -8,7 +8,7 @@ class About extends React.Component {
             <div className="aboutContainer copyright">
 
                 <div className="picture">
-                    <img src={profilePic} alt="Profile" />
+                    <img src={profilePic} alt="Profile" height="300" width="300" />
                 </div>
 
                 <div className="about">

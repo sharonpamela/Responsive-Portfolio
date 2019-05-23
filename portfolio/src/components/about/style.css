@@ -21,12 +21,14 @@ h1 {
     grid-row-start: 1;
     grid-row-end: 2;
     justify-self: center;
+    align-self: center;
 }
 
 .picture img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 30px;
+    
 }
 
 .about {

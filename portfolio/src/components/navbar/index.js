@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import './style.css';
 import atw from './../shared/images/at.png';
 import twitter from './../shared/../shared/images/twitter.png';
@@ -22,8 +22,8 @@ class NavBar extends React.Component {
                     </ul>
                 </div>
                 <div className="menu">
-                    <Link to="/">Work</Link>
-                    <Link to="/about/">About</Link> 
+                    <NavLink exact to="/">Work</NavLink>
+                    <NavLink exact to="/about/">About</NavLink> 
                 </div>
             </div>
         );
