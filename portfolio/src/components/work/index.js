@@ -1,11 +1,12 @@
 import React from 'react';
 import Welcome from './../welcome';
 import Projects from './../projects';
+import './style.css';
 
 function Work() {
 
     return (
-        <div>
+        <div className="workContainer">
             <Welcome />
             <Projects />
         </div> 
