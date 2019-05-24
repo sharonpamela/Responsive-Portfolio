@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.247ab919.chunk.css",
+    "main.js": "/static/js/main.27066792.chunk.js",
+    "main.js.map": "/static/js/main.27066792.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.cc5398f5.chunk.js": "/static/js/2.cc5398f5.chunk.js",
+    "static/js/2.cc5398f5.chunk.js.map": "/static/js/2.cc5398f5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d9074ce1d8d07e1e08e10416b3c4ea1.js": "/precache-manifest.0d9074ce1d8d07e1e08e10416b3c4ea1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.247ab919.chunk.css.map": "/static/css/main.247ab919.chunk.css.map",
+    "static/media/fittraker.png": "/static/media/fittraker.dc6cfce8.png",
+    "static/media/gold.png": "/static/media/gold.cb84735a.png",
+    "static/media/project-geografun-1.png": "/static/media/project-geografun-1.50f9773d.png",
+    "static/media/sharon-profile-pic-1.jpeg": "/static/media/sharon-profile-pic-1.f3e48664.jpeg",
+    "static/media/tagcloud.png": "/static/media/tagcloud.381359e3.png"
+  }
+}
