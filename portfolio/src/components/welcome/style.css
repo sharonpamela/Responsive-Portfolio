@@ -1,13 +1,22 @@
 .container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: grid;
     grid-template-columns: 2% auto 2%;
-    grid-template-rows: 55% 140px auto auto;
+    grid-template-rows: 55% 100px 30px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    position: relative;
+    /* position: relative; */
 }
 
-.welcomeContainer{
+.container span {
+    text-transform: uppercase;
+    display: block;
+}
+
+.welcomeContainer {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -15,32 +24,26 @@
     text-align: center;
     justify-self: center;
     position: relative;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
 
-.container span{
-    text-transform: uppercase;
-    display: block;
-}
-
 .name {
-    color:white;
+    color: white;
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 8px;
     margin-bottom: 15px;
-    position:relative;
-    animation:text 3s 1;
-    background:black;
+    position: relative;
+    animation: text 3s 1;
+    background: black;
 }
 
 .intro {
-    font-size:20px;
-    color:#76B041;
-    
+    font-size: 20px;
+    color: #76B041;
 }
 
 .learnMore {
@@ -50,9 +53,11 @@
     grid-row-end: 4;
     text-align: center;
     justify-self: center;
-    font-size:14px;
-    color:white;  
-    margin-bottom:4%;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20%;
+    width: 100%;
+    font-size: 20px;
 }
 
 .learnMore a:hover {
@@ -61,47 +66,68 @@
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    color:#76B041;
+    color: #76B041;
 }
 
 .learnMore a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 @keyframes text {
-    0%{
-        color:black;
+    0% {
+        color: black;
         margin-bottom: -40px;
     }
-    30%{
+    30% {
         letter-spacing: 20px;
         margin-bottom: -40px;
     }
-    85%{
+    85% {
         letter-spacing: 8px;
         margin-bottom: -40px;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 910px) {
     .name {
-        color:white;
-        font-size: 24px;
-        font-weight: 600;
-        letter-spacing: 8px;
-        margin-bottom: 10px;
-        position:relative;
-        animation:text 3s 1;
-        background:black;
+        font-size: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
-    
     .intro {
-        font-size:16px;
-        color:#76B041;
-        
+        font-size: 20px;
+        color: #76B041;
+    }
+    .learnMore {
+        font-size: 20px;
+    }
+    .learnMore a {
+        font-size: 20px;
     }
     .container {
-        grid-template-rows: 20% 170px auto;
+        grid-template-rows: 20% 150px auto;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .name {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .intro {
+        font-size: 14px;
+        color: #76B041;
+    }
+    .learnMore {
+        font-size: 14px;
+    }
+    .learnMore a {
+        font-size: 14px;
+    }
+    .container {
+        grid-template-rows: 20% 90px auto;
     }
 }
