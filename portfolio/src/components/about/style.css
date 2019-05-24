@@ -49,7 +49,7 @@ h1 {
     justify-self: center;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 910px) {
     .aboutContainer {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;

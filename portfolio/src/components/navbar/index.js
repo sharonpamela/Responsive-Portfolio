@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+// DONT DELETE Link here, it breaks the react router links
+import { BrowserRouter as Link, NavLink } from "react-router-dom";
 import './style.css';
 import atw from './../shared/images/at.png';
 import twitter from './../shared/../shared/images/twitter.png';
 import linkedin from './../shared/images/linkedin.png';
-import logo from './../shared/images/logo1.png';
 import github from './../shared/images/github.png';
 
 class NavBar extends React.Component {

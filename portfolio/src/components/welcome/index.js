@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import arrow from './arrow.png';
+import { BrowserRouter as Link, NavLink } from "react-router-dom";
 
 function Welcome() {
 
@@ -11,7 +11,7 @@ function Welcome() {
                 <span className="intro"> Full-stack web developer based in the bay area.</span>
             </div>
 
-            {/* <div className="arrowDiv" > <img className="arrow" src={arrow} alt="arrow icon" /> </div> */}
+            <p className="learnMore">Click <NavLink exact to="/about/">here</NavLink> to learn more about me.</p>
 
         </div> 
     )

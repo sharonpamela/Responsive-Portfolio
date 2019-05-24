@@ -25,10 +25,11 @@
 
 .menu a:hover {
     text-shadow: 2px 2px 4px white;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    color:#76B041;
 }
 
 .navbar a {

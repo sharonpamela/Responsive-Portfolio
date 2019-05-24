@@ -1,9 +1,9 @@
 .container {
     display: grid;
     grid-template-columns: 2% auto 2%;
-    grid-template-rows: 55% 170px auto;
+    grid-template-rows: 55% 140px auto auto;
     grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    grid-row-gap: 10px;
     position: relative;
 }
 
@@ -26,21 +26,6 @@
     display: block;
 }
 
-.arrowDiv {
-    display: block;
-    text-align: center;
-    justify-self: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.arrow{
-    width: 150px;
-    margin: 15px;
-}
-
 .name {
     color:white;
     font-size: 40px;
@@ -58,6 +43,31 @@
     
 }
 
+.learnMore {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    justify-self: center;
+    font-size:14px;
+    color:white;  
+    margin-bottom:4%;
+}
+
+.learnMore a:hover {
+    text-shadow: 2px 2px 4px white;
+    /* opacity: 0.5; */
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color:#76B041;
+}
+
+.learnMore a {
+    text-decoration: none;
+    color: white;
+}
 
 @keyframes text {
     0%{

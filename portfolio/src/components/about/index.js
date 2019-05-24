@@ -12,7 +12,7 @@ class About extends React.Component {
                 </div>
 
                 <div className="about">
-                    <h1>About</h1>
+                    <h1>About Me</h1>
                     <p>Full Stack Web Developer with Computer Science degree and experience in the areas of
                         cloud storage and computer networking. Also a recent graduate of the Full Stack Web
                         Development Bootcamp at UC Berkeley. Self-driven and highly motivated to join a team
@@ -20,6 +20,9 @@ class About extends React.Component {
                         Node.js, databases, Linux, and server virtualization technologies. Eager to create
                         impactful applications and provide solutions to problems from a user-focused experience.
                     </p>
+                    <br />
+                    <p>I love being outdoors enjoying nature and also like participating in various latin 
+                        dance groups and activites. </p>
                     <br />
                 </div>
                 
